@@ -1,0 +1,23 @@
+{
+  "name": "countvowelsandconsonants",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gallianoms/countVowelsAndConsonants.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gallianoms/countVowelsAndConsonants/issues"
+  },
+  "homepage": "https://github.com/gallianoms/countVowelsAndConsonants#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}

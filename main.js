@@ -3,7 +3,7 @@
 const str =
   'Google Translate is a multilingual neural machine translation service developed by Google to translate text'
 
-const func = str => {
+const countVowelsAndConsonants = str => {
   const vowels = str
     .toLowerCase()
     .match(/[aeiou]/g)
@@ -34,4 +34,6 @@ const func = str => {
   return vowelMoreRepeated.concat(consonantsMoreRepeated)
 }
 
-console.log(func(str)) // [ 'e', 12, 'l', 10 ]
+console.log(countVowelsAndConsonants(str)) // [ 'e', 12, 'l', 10 ]
+
+module.exports = countVowelsAndConsonants
